@@ -1,4 +1,4 @@
-# Xccelerated Data Assessment – Webshop Analytics
+# Webshop Analytics
 
 ## Overview
 This project demonstrates a production-style analytics engineering approach using **SQL and dbt** to transform raw webshop data into **trusted, business-ready insights**.
@@ -8,11 +8,11 @@ The solution is designed to be:
 - **Tested** – data quality is validated at every layer
 - **Scalable** – modular models that follow dbt best practices
 
-The models directly answer the business questions outlined in the assessment and are structured to reflect how analytics engineering is applied in real client projects at Xccelerated.
+The models directly answer the business questions outlined and are structured to reflect how analytics engineering is applied in real client projects.
 
 ## Business Use Case
 
-This assessment is based on a fictional Xccelerated webshop that sells a playful mix of tech‑inspired products. The data model and transformations in this project are built around the webshop’s customers, orders, and product catalog.
+This project is based on a fictional webshop that sells a playful mix of tech‑inspired products. The data model and transformations in this project are built around the webshop’s customers, orders, and product catalog.
 
 The goal of the analytics model is to answer key business questions, including:
 
@@ -199,7 +199,7 @@ These issues are documented and surfaced through dbt tests to maintain transpare
 
 ## Next Steps
 
-If extended beyond the assessment, the next steps would include:
+If extended beyond this scope, the next steps would include:
 
 - Integrating dbt tests into CI/CD pipelines so data quality checks run automatically on every pull request
 - Extending existing incremental fact and mart models with **controlled historical backfilling** using explicit start and end date filters for selective reprocessing
